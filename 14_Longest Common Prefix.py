@@ -3,7 +3,7 @@ class Solution:
         if len(strs) == 1:
             return strs[0]
 
-        minimum, init = 0, 0
+        minimum = 0
         main_list = []
         res = ""
         
